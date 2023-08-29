@@ -1,0 +1,29 @@
+{
+  "name": "koa-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test-login": "node src/tests.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinkunc/koa-test.git"
+  },
+  "author": "Martin Kunc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinkunc/koa-test/issues"
+  },
+  "homepage": "https://github.com/martinkunc/koa-test#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-passport": "^6.0.0",
+    "koa-session": "^6.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
